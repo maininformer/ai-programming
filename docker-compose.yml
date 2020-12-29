@@ -1,0 +1,7 @@
+version: '3'
+services:
+  lisp:
+    build: .
+    volumes:
+      - ".:/ai-programming"
+    working_dir: "/ai-programming"
